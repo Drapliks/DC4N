@@ -1,0 +1,41 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 0,
+    "modules-left": ["niri/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/player", "temperature", "memory", "niri/language", "pulseaudio", "network", "battery", "tray", "custom/power"],
+
+    "custom/player": {
+        "format": "{}",
+        "return-type": "json",
+        "exec": "~/.config/waybar/player.sh",
+        "interval": 1,
+        "max-length": 40,
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    },
+
+    "niri/workspaces": { "format": "{index}", "format-active": "" },
+    "niri/language": { "format": " {short}" },
+    "temperature": { "format": " {temperatureC}°C" },
+    "memory": { "format": " {percentage}%" },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-icons": ["", "", ""],
+        "on-scroll-up": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+    },
+    "clock": { "format": " {:%H:%M}" },
+    "network": { "format-wifi": "", "format-ethernet": "" },
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "custom/power": {
+        "format": "",
+        "on-click": "fuzzel --dmenu -p 'Power: ' <<<'Lock\nLogout\nReboot\nShutdown' | case $(xargs) in 'Lock') swaylock ;; 'Logout') niri msg action quit ;; 'Reboot') systemctl reboot ;; 'Shutdown') systemctl poweroff ;; esac"
+    }
+}

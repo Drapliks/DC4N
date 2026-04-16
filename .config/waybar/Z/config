@@ -1,0 +1,36 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 0,
+    "modules-left": ["niri/workspaces", "niri/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["temperature", "memory", "niri/language", "pulseaudio", "network", "battery", "tray", "custom/power"],
+
+    "niri/workspaces": {
+        "format": "{index}",
+        "format-active": "\uf111",
+        "format-urgent": "\uf10c"
+    },
+    "niri/language": { "format": "\uf11c {short}" },
+    "temperature": { "critical-threshold": 80, "format": "\uf2c9 {temperatureC}°C" },
+    "memory": { "format": "\uf538 {percentage}%" },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "\ufc5d MUTE",
+        "format-icons": ["\uf026", "\uf027", "\uf028"],
+        "on-scroll-up": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+    },
+    "clock": { "format": "\uf017 {:%H:%M}" },
+    "network": { "format-wifi": "\uf1eb", "format-ethernet": "\uf6ff" },
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
+    },
+    "custom/power": {
+        "format": "\uf011",
+        "on-click": "fuzzel --dmenu -p 'Power: ' <<<'Lock\nLogout\nReboot\nShutdown' | case $(xargs) in 'Lock') swaylock -c 1c1c1c ;; 'Logout') niri msg action quit ;; 'Reboot') systemctl reboot ;; 'Shutdown') systemctl poweroff ;; esac",
+        "tooltip": false
+    }
+}
