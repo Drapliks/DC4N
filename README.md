@@ -1,3 +1,4 @@
+[![niri](https://img.shields.io/badge/Niri-D2691E?style=for-the-badge&logo=niri)](https://drapliks.itch.io/)
 # DC4N
 Drapliks Config for Niri
 # Packages
@@ -32,7 +33,6 @@ yandex-music cava
 
 
 # Screenshots:
-![](screenshots/screenshot1.png)
-![](screenshots/screenshot2.png)
-![](screenshots/screenshot3.png)
-![](screenshots/screenshot4.png)
+|:---:|:---:|
+  | ![](screenshots/screenshot1.png) | ![](screenshots/screenshot2.png) |
+  | ![](screenshots/screenshot3.png) | ![](screenshots/screenshot4.png) |
