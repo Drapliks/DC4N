@@ -1,6 +1,6 @@
 #!/bin/bash
 yes | sudo pacman -Syy
-yes | sudo pacman -S pulseaudio fish pipewire papirus-icon-theme btop mpv wine pipewire-pulse flatpak pipewire-alsa pipewire-jack wireplumber swww ttf-jetbrains-mono-nerd viewnior ttf-font-awesome otf-font-awesome gnome-themes-extra niri-settings-git alacritty mako swaybg swaylock waybar xwayland-satellite thunar nwg-look xdg-desktop-portal-gtk
+yes | sudo pacman -S pulseaudio fish pipewire xdg-desktop-portal-gnome papirus-icon-theme btop mpv wine pipewire-pulse flatpak pipewire-alsa pipewire-jack wireplumber swww ttf-jetbrains-mono-nerd viewnior ttf-font-awesome otf-font-awesome gnome-themes-extra niri-settings-git alacritty mako swaybg swaylock waybar xwayland-satellite thunar nwg-look xdg-desktop-portal-gtk
 cd ~/
 git clone https://aur.archlinux.org/packages/yay
 cd yay
