@@ -1,5 +1,6 @@
-[![niri](https://img.shields.io/badge/Niri-FFA07A?style=for-the-badge&logo=niri)](https://drapliks.itch.io/)
-href="https://github.com/Drapliks/DC4N/blob/main/LICENSE"><img alt="GitHub License" src="https://github.com/Drapliks/DC4N">
+[![niri](https://img.shields.io/badge/Niri-FFA07A?style=for-the-badge&logo=niri)](https://niri-wm.github.io/niri/)
+[![Licence](https://img.shields.io/badge/Github-FFA07A?style=for-the-badge&logo=Github)](https://github.com/Drapliks/DC4N/blob/main/LICENSE)
+
 # DC4N
 Drapliks Config for Niri
 # Packages
