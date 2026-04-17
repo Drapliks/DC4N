@@ -12,10 +12,10 @@ print("Welcome to Drapliks Config for Niri(DC4N) installer!\n1.Minimal install\n
 chs = input("> ")
 
 if chs == "1":
-        os.system("bash components/minimalinstall.sh")
-        sys.exit()
+    os.system("bash components/minimalinstall.sh")
+    sys.exit()
 elif chs == "2":
-        custominstall.installC()
-        sys.exit()
+    custominstall.installC()
+    sys.exit()
 elif chs == "3":
-        sys.exit()
+    sys.exit()
