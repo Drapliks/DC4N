@@ -21,6 +21,7 @@ yandex-music cava
 | **Close Window** | <kbd>Super</kbd> + <kbd>Q</kbd> |
 | **App menu** | <kbd>Super</kbd> + <kbd>D</kbd> |
 | **File manager** | <kbd>Super</kbd> + <kbd>E</kbd> |
+| **Browser** | <kbd>Super</kbd> + <kbd>B</kbd> |
 | **Floating toggle** | <kbd>Super</kbd> + <kbd>V</kbd> |
 | **Maximize Column** | <kbd>Super</kbd> + <kbd>F</kbd> |
 | **Fullscreen** | <kbd>F11</kbd> |
