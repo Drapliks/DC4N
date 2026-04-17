@@ -1,10 +1,13 @@
 <div align="center">
+
 [![niri](https://img.shields.io/badge/Niri-FFA07A?style=for-the-badge&logo=niri)](https://niri-wm.github.io/niri/)
 [![Licence](https://img.shields.io/badge/Licence-000000?style=for-the-badge&logo=Github)](https://github.com/Drapliks/DC4N/blob/main/LICENSE)
 
 # DC4N
 Drapliks Config for Niri
+
 </div>
+
 # Packages
 Base packages:
 ```
@@ -37,6 +40,6 @@ yandex-music cava
 
 
 # Screenshots:
-:---:|
-| <img src="screenshots/screenshot1.png" width="400"> | <img src="screenshots/screenshot2.png" width="400"> |
-| <img src="screenshots/screenshot3.png" width="400"> | <img src="screenshots/screenshot4.png" width="400"> |
+| ![1](screenshots/screenshot1.png) | ![2](screenshots/screenshot2.png) |
+| :---: | :---: |
+| ![3](screenshots/screenshot3.png) | ![4](screenshots/screenshot4.png) |
