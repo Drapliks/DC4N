@@ -6,7 +6,7 @@ git clone https://aur.archlinux.org/packages/yay
 cd yay
 makepkg -si
 cd ~/
-yay -S zen-browser-bin
+yay -S zen-browser-bin pipes.sh
 cd ~/DC4N
 cp -r wallpapers/ ~/
 cp -r .config/ ~/

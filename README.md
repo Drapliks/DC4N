@@ -13,6 +13,23 @@ Music packages:
 ```
 yandex-music cava
 ```
+# Base keybinds:
+
+| Action | Keybinding |
+|:--- |:--- |
+| **Open terminal** | <kbd>Super</kbd> + <kbd>T</kbd> |
+| **Close Window** | <kbd>Super</kbd> + <kbd>Q</kbd> |
+| **App menu** | <kbd>Super</kbd> + <kbd>D</kbd> |
+| **File manager** | <kbd>Super</kbd> + <kbd>E</kbd> |
+| **Floating toggle** | <kbd>Super</kbd> + <kbd>V</kbd> |
+| **Maximize Column** | <kbd>Super</kbd> + <kbd>F</kbd> |
+| **Fullscreen** | <kbd>F11</kbd> |
+| **Up workspace** | <kbd>Super</kbd> + <kbd>PgUp</kbd> |
+| **Down workspace** | <kbd>Super</kbd> + <kbd>PgDn</kbd> |
+| **Exit Session** | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> |
+
+
+
 # Screenshots:
 ![](screenshots/screenshot1.png)
 ![](screenshots/screenshot2.png)
