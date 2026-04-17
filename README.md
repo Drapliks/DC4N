@@ -4,10 +4,30 @@
 [![Licence](https://img.shields.io/badge/Licence-000000?style=for-the-badge&logo=Github)](https://github.com/Drapliks/DC4N/blob/main/LICENSE)
 
 # DC4N
-Drapliks Config for Niri
+### Drapliks Config for Niri
+
+#### This is a gray and strict config that emphasizes quick system management
+
+<img src="screenshots/mainScreenshot.png" width="750">
 
 </div>
 
+# Installation
+### To install you need to have ```python``` and ```git```!
+
+To quickly launch the installer, enter in the terminal:
+```
+git clone https://github.com/Drapliks/DC4N.git
+cd DC4N/
+python installer.py
+```
+To start the minimal installation immediately, enter:
+```
+git clone https://github.com/Drapliks/DC4N.git
+cd DC4N/components/
+chmod +x minimalinstall.sh
+bash minimalinstall.sh
+```
 # Packages
 Base packages:
 ```
@@ -21,7 +41,7 @@ Music packages:
 ```
 yandex-music cava
 ```
-# Base keybinds:
+# Base keybinds
 
 | Action | Keybinding |
 |:--- |:--- |
@@ -39,7 +59,7 @@ yandex-music cava
 
 
 
-# Screenshots:
+# Screenshots
 | ![1](screenshots/screenshot1.png) | ![2](screenshots/screenshot2.png) |
 | :---: | :---: |
 | ![3](screenshots/screenshot3.png) | ![4](screenshots/screenshot4.png) |
