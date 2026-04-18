@@ -402,7 +402,7 @@ binds {
     // or do a four-finger swipe up on a touchpad.
     Mod+O repeat=false { toggle-overview; }
 
-    Mod+E { spawn "thunar"; }
+    Mod+E { spawn "nautilus"; }
     Mod+B { spawn "zen-browser"; }
 
     Mod+Q repeat=false { close-window; }
