@@ -11,5 +11,6 @@ cd ~/DC4N
 cp -r wallpapers/ ~/
 cp -r .config/ ~/
 chsh -s $(which fish)
+gsettings set org.gnome.desktop.interface accent-color 'slate'
 clear
 echo "Minimal install is end."
