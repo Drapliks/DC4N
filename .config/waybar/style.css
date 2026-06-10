@@ -1,0 +1,50 @@
+@define-color bg-main #1c1c1c;
+@define-color bg-hover #333333;
+@define-color text-main #eeeeee;
+@define-color text-accent #ffffff;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: @bg-main; 
+    color: @text-main;
+}
+
+#workspaces, #window, #clock, #temperature, #memory, #language, #pulseaudio, #network, #battery, #tray, #custom-power, #custom-player, #custom-theme-picker, #custom-theme-reset {
+    padding: 0 12px;
+    background: transparent;
+}
+
+#workspaces button {
+    color: #666666;
+    padding: 0 8px;
+}
+
+#workspaces button.active {
+    background-color: @bg-hover;
+    color: @text-accent;
+}
+
+#clock {
+    font-weight: bold;
+    color: @text-main;
+}
+
+#custom-player {
+    color: @text-accent;
+    font-weight: bold;
+}
+
+#custom-power {
+    color: @text-accent;
+    font-size: 14px;
+}
+
+#custom-power:hover, #custom-theme-picker:hover, #custom-theme-reset:hover {
+    background-color: @bg-hover;
+}
